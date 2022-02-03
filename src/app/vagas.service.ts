@@ -23,8 +23,8 @@ export class VagasService {
     return this._httpClient.post<Vaga[]>(this.url,vaga);
   }
 
-  atualizarVagas(id:any ,vaga: Vaga): Observable<Vaga[]>{
-    const urlAtualizar =`${this.url}/${id}`;
+  atualizarVaga(id:any ,vaga: Vaga):Observable<Vaga[]>{
+    const urlAtualizar = `${this.url}/${id}`;
     return this._httpClient.put<Vaga[]>(urlAtualizar,vaga);
   }
 
@@ -34,3 +34,4 @@ export class VagasService {
   }
 
 }
+ 
