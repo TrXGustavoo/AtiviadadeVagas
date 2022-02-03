@@ -1,5 +1,6 @@
 .forms {
     display:grid;
+   max-width: 350px;
 }
 .btm{
     margin: 5px 10px;
