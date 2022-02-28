@@ -9,17 +9,23 @@
     margin: 5px 10px;
 }
 #sucss{
-    display: flex;
-    flex-direction: row;
     margin: 5px 10px;
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
 }
-#att{
-    display: flex;
-    flex-direction: row;
+#att{ 
     margin: 5px 10px;
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
 }
 #exe{
-    display: flex;
-    flex-direction: row;
     margin: 5px 10px;
+    border-width: medium;
+    border-style: solid;
+    border-color: black;
+}
+body{
+    background-color: ghostwhite;
 }

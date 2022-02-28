@@ -11,6 +11,7 @@ import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { InscreverComponent } from './inscrever/inscrever.component';
+import { ListaVComponent } from './lista-v/lista-v.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { InscreverComponent } from './inscrever/inscrever.component';
     PainelVagasComponent,
     MenuComponent,
     RodapeComponent,
-    InscreverComponent
+    InscreverComponent,
+    ListaVComponent
   ],
   imports: [
     BrowserModule,

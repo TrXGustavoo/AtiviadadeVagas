@@ -1,26 +1,56 @@
-<section class="lista-vagas">
-  <div *ngFor="let vaga of vagas">
+<!DOCTYPE html>
+<html lang="pt-br">
 
-    <div>
-      <div class="card" style="width: 18rem;">
-        <img src="assets\img\vagas\{{vaga.foto}}" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Código da Vaga: {{vaga.id}}</h5>
-          <h5 class="card-title">Vaga: {{vaga.nome}}</h5>
-          <p class="card-text">Descrição da vaga: {{vaga.descricao}}</p>
-          <p class="card-text">Salário: R$ {{vaga.salario}},00</p>
-          <div class="cards">
-            <div class="card-body">
-              <div class="btn-group">
-                <a routerLink="/sign" class="btn btn-success active" aria-current="page">Me inscrever para essa vaga</a>
-              </div>
-            </div>
-          </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Dificuldades em achar emprego? Nosso site vai te ajudar!!!!</h1>
+  <h2>Previa de algumas vagas</h2>
+  <div id="carouselExampleDark" class="carousel carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="100000000000000000000000">
+        <img id="im1" src="assets\img\vagas\foto1.jpg" class="d-block w-0" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Desenvolvedor Front End Jr</h5>
+          <p> R$5000 </p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img id="im2" src="assets\img\vagas\foto2.jpg" class="d-block w-0" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Desenvolvedor BackEnd Pleno</h5>
+          <p>R$7000</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img id="im3" src="assets\img\vagas\foto3.jpg" class="d-block w-0" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Desenvolvedor Fullstack Senior</h5>
+          <p>R$10000</p>
         </div>
       </div>
     </div>
-
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+  <h3>Para visualizar mais informações sobre a vaga clique em lista de vagas na barra de navegação</h3>
+</body>
 
-
-</section>
+</html>

@@ -31,7 +31,7 @@
     {
       "id": 5,
       "nome": "Gestor de equipe",
-      "foto": "foto5.jpg",
+      "foto": "fotog.jpg",
       "descricao": "Ter habilidade em liderança e trabalho em grupo",
       "salario": "7000"
     },
@@ -39,7 +39,7 @@
       "id": 6,
       "nome": "Vendedor",
       "foto": "foto6.jpg",
-      "descricao": "Marketing",
+      "descricao": "Ter um bom entendimento de marketing",
       "salario": "5000"
     }
   ]
