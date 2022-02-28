@@ -1,7 +1,25 @@
 .forms {
     display:grid;
    max-width: 350px;
+   font: normal 14pt Arial;
 }
 .btm{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px;
+}
+#sucss{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px;
+}
+#att{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px;
+}
+#exe{
+    display: flex;
+    flex-direction: row;
     margin: 5px 10px;
 }
